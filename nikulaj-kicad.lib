@@ -99,4 +99,21 @@ X ~ 8 -450 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# std_op_amp
+#
+DEF std_op_amp U 0 40 Y Y 1 F N
+F0 "U" 330 350 60 H V C CNN
+F1 "std_op_amp" 410 -370 60 H V C CNN
+F2 "" 125 0 60 H V C CNN
+F3 "" 125 0 60 H V C CNN
+DRAW
+P 4 0 1 0  -175 -300  -175 300  375 0  -175 -300 N
+X +In 1 -375 150 200 R 50 50 1 1 I
+X -In 2 -375 -150 200 R 50 50 1 1 I
+X V+ 3 50 375 200 D 50 50 1 1 I
+X V- 4 50 -375 200 U 50 50 1 1 I
+X Output 5 575 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
